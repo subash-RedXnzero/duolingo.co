@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    background-color:transparent;
+}
+nav{
+    height: 7vh;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+.imu{
+    height: 50px;
+    width: 80px;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+ .imu img{
+    height: 40px;
+    width:50px ;
+}
+.tan{
+    height: 50px;
+    width: 500px;
+    background-color:transparent;
+    margin-left: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: larger;
+    color: #fff;
+    ;
+}
+h1{
+    font-size: larger;
+    
+    
+    gap:2px
+
+}
+.tan h1:hover{
+    border-bottom: 1px solid white;
+    
+    
+    }
+    
+h2{
+    font-size: larger;
+    gap:2px;
+    
+}
+.tan h2:hover{
+    border-bottom: 1px solid white;
+    
+    
+    }
+    
+h3{
+    font-size: larger;
+    gap:2px;
+}
+
+.tan h3:hover{
+border-bottom: 1px solid white;
+
+
+}
+
+h4{
+    font-size: larger;
+    gap:2px
+}
+.tan h4:hover{
+    border-bottom: 1px solid white;
+    
+    
+    }
+    
+h5{
+    font-size: larger;
+    gap:2px
+}
+.tan h5:hover{
+    border-bottom: 1px solid white;
+    
+    
+    }
+    
+
+
+#circle{
+    height: 30px;
+    width: 30px;
+    background-color:#fff;
+    border-radius: 50%;
+    ;
+    margin-left: 70vh;
+}
+#box{
+   min-height: 100vh;
+    width: 100vw;
+    background-color:#08090a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    
+}
+#par{
+    font-size: 140px;
+    margin-right: 40vw;
+    margin-top: 15vw;
+    
+}
+#par1{
+    font-size:140px ;
+    
+    margin-left: 30vw;
+
+}
+#box video{
+    margin-top: 3vw;
+width: 50vw;;
+height: 60vh;
+}
+.page2{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    border-bottom: 4px solid black;
+
+}
+.page2 h1{
+    text-align: start;
+    font-size: 7vw;
+    font-weight: lighter;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.two{
+    height: 60vh;
+    width: 100vw;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    margin-top: 8VW;
+}
+.cre{
+    height: 50vh;
+    width: 30vw;
+    margin-left: 5vw;
+    background-color:transparent;
+    
+}
+.cre H4{
+    font-size: 3VW;
+    margin: 0;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bu{
+    height: 32Vh;
+    width: 25vw;
+    background-color:transparent;
+    margin-left: 35vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bu h6{
+    font-size: 1.25vw;
+    font-weight: 100;
+    margin: 4px;
+    font-weight: 300;
+    
+}
+.bu button{
+    width: 20vw;
+    height:2vw;
+    margin-left: 1.1vw;
+    margin-top: 1vw;
+    border-radius: 2vw;
+    font-size: 1vw;
+    background-color: white;
+}
+.bu button:hover{
+    background-color:aqua;
+}
+.page3{
+    min-height: 140vh;
+    width: 100vw;
+    background-color:white;
+}
+.sel{
+    height: 40vh;
+    width: 100vw;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    ;
+    
+}
+.sel h1{
+    font-size: 6vw;
+    margin-left: 5vw;
+    margin-bottom: 3vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+}
+.imp{
+    min-height: 100vh;
+width: 100vw;
+background-color:white;
+display: flex;
+}
+.imp img{
+   min-height: 70vh;
+    width: 45vw;
+    margin-top: 25vw;
+    
+}
+.imp video{
+height: 65vh;
+width:70vw ;
+margin-bottom: 20vw;
+ margin-left: 9vw;
+}
+.page4{
+    height: 150vh;
+    width: 100vw;
+    background-color: transparent;
+    display: flex;
+    justify-content: end;
+}
+.page4 img{
+    height: 75vh;
+    width: 5ovw;
+    
+
+}
+.cursor{
+    height: 6vh;
+    width: 3vw;
+    background-color: green;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 9;
+    transition: all linear 0.2s;
+    mix-blend-mode: difference;
+    transition: background-image ease 0.5s;
+    background-size: cover;
+    background-position: center;
+}
+/* .page5{
+    min-height: 100vh;
+    width: 100vw;
+    background-color:blue;
+} */
+.page6{
+   min-height: 8l0vh;
+    width: 100vw;
+    background-color:black;
+    
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.elem{
+    
+    min-height: 10vh;
+    width: 100vw;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 50px 60px
+}
+.elem h1{
+    font-size: 5vw;
+    transition: all ease-out 0.5s;
+}
+.text{
+    height:100px;
+    width: 520px;
+    background-color:transparent;
+
+    align-items: center;
+    overflow: hidden;
+    
+
+    
+}
+.elem img{
+    transition: all ease-out 0.5s;
+opacity: 0;
+transform: translateY(10%)  rotate(2deg);
+    position: absolute;
+}
+.elem img:nth-child(1){
+    left: 2%;
+    
+}
+.elem img:nth-child(3){
+    right: 5%;
+}
+.elem:hover h1{
+    transform: translatey(-100%);
+color: aqua;
+}
+
+        .elem:hover img{
+            opacity: 1;
+            transform: translate(0%) rotate(0deg);
+        }
+
+
+
+        .touch{
+            height: 200vh;
+            width:100vw;
+            background-color:black;
+            color: #fff;
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .middle{
+            min-height: 100vh;
+            width: 90vw;
+            background-color: black;
+            margin-bottom: 7vw;
+            
+        }
+        .touch h2{
+            font-size: 7vw;
+                font-weight: lighter;
+                border-bottom: 2px solid white;
+                margin: 2vw;
+        }
+        .bx{
+            height: 15vh;
+            width: 86vw;
+            display: flex;
+            font-size: 25px;
+            align-items: center;
+            margin: 2vw;
+            overflow: hidden;
+            color: silver;
+            border-bottom: 2px solid silver;
+            
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+        }
+        .bx h3:nth-child(2){
+        font-size: small;
+        margin-left: 79vw;
+        
+        }
+        .bx h3{
+            font-weight: lighter;
+        }
+        .new1{
+            height: 100vh;
+            width: 100vw;
+            background-color: white;
+        }
+        
